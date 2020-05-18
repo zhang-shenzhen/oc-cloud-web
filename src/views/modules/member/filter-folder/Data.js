@@ -1,0 +1,4 @@
+let memberobj = {}
+memberobj.name = ['programFirstTime', 'programLastTime', 'memberData.orderTotal', 'memberData.orderPayTotal', 'memberData.orderAmount', 'memberData.orderAmountAvg', 'memberData.orderLastFinishTime', 'deposited', 'depositAmount', 'name', 'phone', 'nickname', 'headimgurl', 'subscribetime', 'location', 'registertime', 'email', 'gender', 'birthday', 'language', 'subscribescene', 'tag']
+memberobj.title = ['programFirstTime', 'programLastTime', 'memberData.orderTotal', 'memberData.orderPayTotal', 'memberData.orderAmount', 'memberData.orderAmountAvg', 'memberData.orderLastFinishTime', 'deposited', 'depositAmount', 'displayName', 'phoneNumber', 'nickName', 'headPortraitUrl', 'subscribeTime', '地区', 'registerTimeInt', 'email', 'sex', 'birthdayInt', 'languageName', '$.subscribeScene', 'tagIds']
+export default memberobj

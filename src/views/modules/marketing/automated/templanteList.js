@@ -1,0 +1,147 @@
+const templanteList = [
+  {
+    background: '',
+    icon: '',
+    title: '空白模版',
+    text: '',
+    index: '1',
+    chilns: [
+      {
+        background: '#0091ff',
+        icon: 'bg1.svg',
+        title: '空白模版',
+        text: '创建全新的模版',
+        path: '',
+      },
+      {
+        background: '#0091ff',
+        icon: 'bg2.svg',
+        title: '实时营销',
+        text: '在客户产生了某个时间动作或客户属性发生变化',
+        path: 'marketing-Automated-startTrigger',
+      },
+      {
+        background: '#f7b500',
+        icon: 'bg3.svg',
+        title: '周期营销',
+        text: '以时间周期为条件重复执行的营销策略',
+        path: 'cycle-marketing',
+      },
+      {
+        background: '#6dd400',
+        icon: 'bg4.svg',
+        title: '单次营销',
+        text: '对指定客户群进行一次营销触发一次即结束',
+        path: 'singl-marketing',
+      },
+      {
+        background: '#f03d3d',
+        icon: 'bg5.svg',
+        title: '节日营销',
+        text: '在特殊的日期时间对客户进行营销触发',
+        path: 'festival-marketing',
+      },
+    ],
+  },
+  {
+    background: '',
+    icon: '',
+    title: '拉新用户',
+    text: '',
+    index: '2',
+    chilns: [
+      {
+        background: '#AE17D7',
+        icon: 'zcsl.png',
+        title: '注册送好礼',
+        text: '新注册的会员用户定时赠送一定奖励',
+        path: '',
+      },
+      {
+        background: '#E8B22D',
+        icon: 'discount-voucher.png',
+        title: '京东送礼券',
+        text: '针对京东用户端会员定时赠送指定卡券',
+        path: '',
+      },
+    ],
+  },
+  {
+    background: '',
+    icon: '',
+    title: '留存用户',
+    text: '',
+    index: '3',
+    chilns: [
+      {
+        background: '#898BFA',
+        icon: 'customer.png',
+        title: '3个月内老客户召回计划',
+        text: '3个月内的老客户定时通过公众号进行营销推送',
+        path: '',
+      },
+      {
+        background: '#DB483A',
+        icon: 'vip.png',
+        title: 'VIP客户关怀计划',
+        text: '针对优质的登记会员定制对应的关怀策略',
+        path: '',
+      },
+    ],
+  },
+  {
+    background: '',
+    icon: '',
+    title: '触活用户',
+    text: '',
+    index: '4',
+    chilns: [
+      {
+        background: '#EF885E',
+        icon: 'yx.png',
+        title: '日常分组活动营销',
+        text: '对普通会员定制一系列的营销活动策略',
+        path: '',
+      },
+      {
+        background: '#3EBE53',
+        icon: 'repeat.png',
+        title: '半年内复购提醒计划',
+        text: '在客户产生了某个时间动作或客户属性发生变化',
+        path: '',
+      },
+      {
+        background: '#4B65F8',
+        icon: 'abs.png',
+        title: '新品A/B测试计划',
+        text: '针对某一产品指定A/B测试计划',
+        path: '',
+      },
+    ],
+  },
+
+  {
+    background: '',
+    icon: '',
+    title: '召回用户',
+    text: '',
+    index: '5',
+    chilns: [
+      {
+        background: '#F0AA2E',
+        icon: 'percentage.png',
+        title: '沉睡预警召回计划',
+        text: '针对长期不参与互动的会员进行唤醒计划',
+        path: '',
+      },
+      {
+        background: '#6100E1',
+        icon: 'precision.png',
+        title: '老用户精准投放',
+        text: '针对半年内复购提醒营销策略计划',
+        path: '',
+      },
+    ],
+  },
+]
+export default templanteList
