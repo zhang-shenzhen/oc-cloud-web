@@ -32,7 +32,7 @@
     "hotkeys-js": "^3.6.3",
     "js-cookie": "^2.2.0",
     "jsplumb": "^2.11.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "lowdb": "^1.0.0",
     "nprogress": "^0.2.0",
     "qs": "^6.7.0",
