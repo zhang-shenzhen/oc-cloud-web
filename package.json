@@ -23,7 +23,7 @@
     "better-scroll": "^1.15.2",
     "clipboard-polyfill": "^2.8.0",
     "core-js": "^2.6.5",
-    "d3": "^5.9.7",
+    "d3": "^7.6.1",
     "dayjs": "^1.8.13",
     "echarts": "^4.2.1",
     "element-ui": "2.12.0",
